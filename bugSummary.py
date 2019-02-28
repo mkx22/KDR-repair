@@ -30,15 +30,18 @@ if __name__ == '__main__':
             if row[colIndex] == "":
                 count += 1
                 continue
-            repairType = row[colIndex]
+            repairType = row[colIndex].strip()
+            while not repairType[-1].isalpha():
+                repairType = repairType[:-1]
 
             num = repairSum.get(repairType)
+            listID = int(row[0][1:-1])
             if num:
-                repairSum[repairType] += 1
+                repairSum[repairType].append(listID)
             else:
-                repairSum[repairType] = 1
-        
-       	repairSum = sorted(repairSum.items(), key = lambda d:d[1], reverse = True)	
+                repairSum[repairType] = [listID]
+
+       	repairSum = sorted(repairSum.items(), key = lambda d:len(d[1]), reverse = True)
        	#print(repairSum[0])
         for i in range(len(repairSum)):
-            print(repairSum[i])
+            print(repairSum[i][0] + ": " + str(len(repairSum[i][1])) + ". indices: " + str(repairSum[i][1]))
