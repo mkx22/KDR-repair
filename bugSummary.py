@@ -43,5 +43,8 @@ if __name__ == '__main__':
 
        	repairSum = sorted(repairSum.items(), key = lambda d:len(d[1]), reverse = True)
        	#print(repairSum[0])
+        csvfile = open('csv.csv', 'wb')
+        writer = csv.writer(csvfile)
+        writer.writerow(['Fix', 'Num', 'Indic'])
         for i in range(len(repairSum)):
-            print(repairSum[i][0] + ": " + str(len(repairSum[i][1])) + ". indices: " + str(repairSum[i][1]))
+            writer.writerow([repairSum[i][0], str(len(repairSum[i][1])), str(repairSum[i][1])])
