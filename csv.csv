@@ -1,13 +1,13 @@
-Fix,Num,Indic
-extend critical session,12
-disabling interrupts,19
-locks,88
-synchronization,16
-adding buffer variables,29
-removing race codes,12
-minimizing the use of shared resources,3
+changing operation orders,105
+adding locks,88
+adding additional checks,60
+adding buffer variables,30
 adding atomic instructions,23
-changing operation orders,102
+controlling interrupt lines,18
+synchronization,16
+removing race codes,13
+extending critical session,12
 adding memory barriers,6
+minimizing the use of shared resources,3
 adding try-again marks,2
-Other,5
+other,6
