@@ -58,7 +58,9 @@ if __name__ == '__main__':
             info = info.split("&")
             for fix in info:
                 fix = fix.strip()
-                if fix.find("lock") != -1 or fix.find("mutex") != -1:
+                if fix.find("irq") != -1:
+                    addFixType(summaryInfo, "disabling interrupts")
+                elif fix.find("lock") != -1 or fix.find("mutex") != -1:
                     addFixType(summaryInfo, "locks")
                 elif fix.find("atomic") != -1:
                     addFixType(summaryInfo, "adding atomic instructions")
