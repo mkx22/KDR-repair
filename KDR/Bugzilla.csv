@@ -1,0 +1,56 @@
+list,source,module,version,id,status,Repair type,ref
+[1],Bugzilla,ACPI,2.6.39,35642,Resolved,mutex_lock,69d94ec6d83d84044252d9ba03f6a8970816e350
+[2],Bugzilla,ACPI,3.12,70891,Resolved,adding buffer var iables,not found
+[2],Bugzilla,ACPI,3.12,70891,Resolved,spin_lock_irqsave.,not found
+[3],Bugzilla,Drivers,2.6.38.x,34992,Resolved,Wrong,na
+[4],Bugzilla,Drivers,3.2.10,42916,Resolved,changing operation orders,notfound
+[5],Bugzilla,Drivers,3.3.1-3.3.4,43187,Resolved,changing operations and operation orders,574e02abaf816b582685805f0c1150ca9f1f18ee
+[6],Bugzilla,Drivers,vanilla 3.4-rc1,43044,Opened,changing operation orders,notfound
+[7],Bugzilla,Drivers,2.6.25,45691,Opened,mutex_lock,notfound
+[8],Bugzilla,Drivers,2.6.32.7,15294,Resolved,changing operation orders,notfound
+[9],Bugzilla,Drivers,2.6.34-rc4,15550,Resolved,add additional checks,1073af33fdd4e960c70b828e899b1291b44f0b3d
+[10],Bugzilla,Drivers,3.6.6,50461,Resolved,unknown,na
+[11],Bugzilla,Drivers,3.7,52471,Resolved,add atomic instructions,notfound
+[12],Bugzilla,Drivers,3.9,57321,Resolved,May be Wrong,na
+[13],Bugzilla,Drivers,3.8.13,57381,Resolved,May be Wrong,na
+[14],Bugzilla,Drivers,3.2.45,58511,Resolved,May be Wrong,na
+[15],Bugzilla,Drivers,3.7+,58971,Resolved,May be Wrong,na
+[16],Bugzilla,Drivers,3.4.46,60719,Opened,unknown,na
+[17],Bugzilla,Drivers,3.11-rc7,60811,Resolved,May be wrong,na
+[18],Bugzilla,Drivers,3.4.46,60719,Opened,xx,xx
+[19],Bugzilla,Drivers,3.12-rc7,64361,Resolved,May be wrong,na
+[20],Bugzilla,Drivers,3.13,69611,Resolved,changing operation orders,cbbaa603a03cc46681e24d6b2804b62fde95a2af
+[21],Bugzilla,Drivers,3.13.5,71551,Resolved,mutex_lock,e4dbedc7eac7da9db363a36f2bd4366962eeefcc
+[22],Bugzilla,Drivers,3.14.2,75561,Opened,add additional checks,b1b94b5d387e3a1f034c308e22f9295828d7174a
+[23],Bugzilla,Drivers,3.16.1,83611,Opened,add additional checks,8efe82ca908400785253c8f0dfcf301e6bd93488
+[24],Bugzilla,File System,2.6.35-rc3,16312,Resolved,changing operation orders,01ea50638bc04ca5259f5711fcdedefcdde1cf43
+[25],Bugzilla,File System,2.6.37,29752,Resolved,changing operation orders,e8a80c6f769dd4622d8b211b398452158ee60c0b
+[26],Bugzilla,File System,2.6.39-rc2,36002,Resolved,complex fix,3b06b3ebf44170c90c893c6c80916db6e922b9f2
+[27],Bugzilla,File System,2.6.31.6,14739,Resolved,changing operation orders,other
+[28],Bugzilla,File System,Linux-2.6.24.7,15572,Resolved,add additional checks,na
+[29],Bugzilla,File System,3.7-rc7,50991,Resolved,changing operation orders,3a98b8614312026d489e56c1d0e294a68e2aad77
+[30],Bugzilla,File System,"3.6.0, 3.5.x",48421,Resolved,add additional checks,642fe4d00db56d65060ce2fd4c105884414acb16
+[31],Bugzilla,File System,3.2.0-29-generic,51391,Resolved,add additional checks,other
+[32],Bugzilla,File System,3.9-rc4,55651,Resolved,May be Wrong,na
+[33],Bugzilla,File System,3,65241,Opened,May be Wrong,na
+[34],Bugzilla,File System,3.11-rc6,60786,Opened,lock_page,bdf96838aea6
+[35],Bugzilla,File System,3.2.0,72041,Opened,complex fix,na
+[36],Bugzilla,File System,2.4.37/2.6.32/3.2-3.18,91881,Opened,May be Wrong,na
+[37],Bugzilla,File System,all,93441,Opened,May be Wrong,na
+[38],Bugzilla,File System,3,62221,Opened,May be Wrong,na
+[39],Bugzilla,IO,2.6.38-rc5,29442,Resolved,add atomic instructions,52208ae3fc60cbcb214c10fb8b82304199e2cc3a
+[40],Bugzilla,IO,2.6.38,31802,Resolved,add additional checks,777eb1bf15b8532c396821774bf6451e563438f5
+[41],Bugzilla,IO,2.6.20.1,8223,Resolved,unknown,xx
+[42],Bugzilla,IO,/,32552,Resolved,May be Wrong,na
+[43],Bugzilla,IO,3.3,12309,Resolved,unknown,xx
+[44],Bugzilla,Memory Management,2.6.28,15723,Resolved,spin_lock,xx
+[45],Bugzilla,Memory Management,3.8.12,58011,Resolved,changing operation orders,944a1fa01266aa9ace607f29551b73c41e9440e9
+[46],Bugzilla,Memory Management,3.18-rc4 and all earlier versions,88051,Resolved,May be Wrong,na
+[47],Bugzilla,Memory Management,3.16.0-rc5,80881,Opened,May be Wrong,na
+[48],Bugzilla,Process Management,2.6.36.3,27142,Resolved,changing operation orders,d694ad62bf539dbb20a0899ac2a954555f9e4a83
+[49],Bugzilla,Process Management,"3.4,3.10",61451,Opened,unknown,xx
+[50],Bugzilla,Networking,2.6.31,15606,Resolved,changing operation orders,na
+[51],Bugzilla,Networking,3.4.0,59951,Opened,unknown,xx
+[52],Bugzilla,Networking,3.5.0+(earlier versions untested),52991,Opened,unknown,xx
+[53],Bugzilla,Others,"3.0.1, 3.0.3",42382,Resolved,spin_lock,e30e2fdfe56288576ee9e04dbb06b4bd5f282203
+[54],Bugzilla,Others,"3.0.10, 3.0.11",61371,Opened,unknown,xx
